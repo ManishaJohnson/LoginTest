@@ -12,7 +12,9 @@ body{
 	margin:  0;
 	padding:  0;
 	font-family:  cascade script;
-	background-image: url('front_page4.png');
+	background-image: url('2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
 	overflow: hidden;
 }
@@ -25,8 +27,8 @@ body{
   background-color: rgba(255,255,255,0.9);
 	border-radius: 20px;
 	height: 350px;
-	border: 4px solid #C15649;	
-	box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.4);
+	padding: 0 10px 30px 10px;
 }
 
 /* Login box */
@@ -115,7 +117,6 @@ input[type="submit"]:hover{
 	text-decoration: underline;
 	margin: -5px 0 20px 5px;
 	color: #a6a6a6;
-
 }
 
 /* To Be Deleted */

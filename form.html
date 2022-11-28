@@ -10,30 +10,63 @@
 	<div class="main"></div>
 	<div class="register">
 
-		<h2>Register here!!!</h2>
-		<form id="register" method="post"></form>
-		<label>Business Name: </label>
-		<br>
-		<input type="text" name="bname" id="bname" placeholder="Enter your Business Name" required>
+		<h2>Register here</h2>
+		<form id="register" method="post">
+			
+		<label>Business Name: </label><br>
+		<input type="text" name="bname" class="textinp" placeholder="Enter your Business Name" required>
 		<br><br>
-		<label>Email: </label>
-		<br>
-		<input type="email" name="email" id="email" placeholder="Email" required>
+		<label>Email: </label><br>
+		<input type="email" name="email" class="textinp" placeholder="Email" required>
 		<br><br>
-		<label>Phone Number: </label>
-		<br>
-		<input type="text" pattern="[789][0-9]{9}" name="tel" id="tel" placeholder="Phone number" required>
+		<label>Phone Number: </label><br>
+		<input type="text" pattern="[789][0-9]{9}" name="tel" class="textinp" placeholder="Phone number" required>
 		<br><br>
-		<label>Address: </label>
-		<br>
-		<input type="text" name="bname" id="bname" placeholder="Enter your Business Address" required>
-		<br><br>		
-		<label>Add business hours: </label>
-		<br>
-		<input type="text" name="bname" id="bname" placeholder="Enter your Business Hours" required>
+		<label>Address: </label><br>
+		<input type="text" name="bname" class="textinp" placeholder="Enter your Business Address" required>
 		<br><br>
+		<label>Landmark: </label><br>
+		<input type="text" name="bname" class="textinp" placeholder="Enter a Landmark">
+		<br><br>	
+
+		<label>Type: </label><br>
+		<input type="text" name="tname" class="textinp" placeholder="Type">
+		<br><br>	
+
+		<label> Add business hours: </label>
+			<div class="time_content">
+				<div id="timecontent_space">
+		In Time <input type="time" class="apptinp" name="appt" >
+				</div>
+				<div id="timecontent_space">
+		Out Time<input type="time" class="apptinp" name="appt" >
+				</div>
+			</div>
+
+			<br>
+		<label>Password: </label><br>
+		<input type="password" name="tname" class="textinp" placeholder="Type">
+		<br><br>
+
+
+		<label>Repeat Password: </label><br>
+		<input type="password" name="tname" class="textinp" placeholder="Type">
+		<br><br>
+
 		<input type="submit" value="Verify">
+		</form>
 	</div> <!-- End Register here-->
 	</div> <!-- End Main here-->
+
+	<script type="text/javascript">
+		function myFunction() {
+		  var x = document.getElementById("hours_hide");
+		  if (x.style.display === "block") {
+		    x.style.display = "none";
+		  } else {
+		    x.style.display = "block";
+		  }
+		}
+	</script>
 </body>
 </html>
